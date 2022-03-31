@@ -1,0 +1,11 @@
+*** INICIO DEL ARCHIVO ***
+import requests
+url='https://blog.artegrafico.net'
+r=requests.get(url)
+#print(r.content[:])#trae contenido de la pagina(codigo de la pagina web)
+#print(r.encoding)
+print(r.text) #trae codigo de la pagina web
+#print(r)
+#print(r.status_code)
+#si sale response[200] es que si esta dando respuesta OK
+*** FIN DEL ARCHIVO***
